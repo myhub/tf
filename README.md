@@ -24,5 +24,4 @@ python main.py
 + <a href=https://github.com/NVIDIA/cccl>cccl</a>
 
 
-#### 软件协议
-请勿商用，请勿破解
+
