@@ -10,6 +10,8 @@
 + Ubuntu20.04/Ubuntu22.04
 + Python3, NumPy, PyTorch
 
+推荐使用docker运行
+
 #### 第一个例子
 ```
 git clone https://github.com/myhub/tf
