@@ -15,7 +15,7 @@ cd ./tf
 python main.py
 ```
 
-#### 参考资料
+#### 软件说明
 本软件在<a href=https://github.com/myhub/uc>myhub/uc</a>项目基础上开发，受<a href=https://github.com/OpenBMB/MiniCPM>MiniCPM</a>, <a href=https://github.com/BlinkDL/RWKV-LM>RWKV</a>等项目启发，全程使用<a href=https://www.deepseek.com/>DeepSeek</a>大语言模型编写代码，主要依赖以下开源库：
 + <a href=https://github.com/NVIDIA/cutlass>cutluss</a>
 + <a href=https://github.com/NVIDIA/cccl>cccl</a>
