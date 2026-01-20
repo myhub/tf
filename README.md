@@ -3,7 +3,9 @@
 + 平方复杂度
 + 复杂推理能力弱
 
-本架构经过了大量测试，见https://zhuanlan.zhihu.com/p/23202768443，更多介绍见https://zhuanlan.zhihu.com/p/1996599793196225828
+本架构经过了大量测试，见https://zhuanlan.zhihu.com/p/23202768443
+
+更多介绍见https://zhuanlan.zhihu.com/p/1996599793196225828
 
 #### 运行环境
 + 支持NVIDIA sm_75/sm_80/sm_86/sm_89/sm_90系列显卡
