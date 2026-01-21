@@ -16,7 +16,7 @@
 ```
 git clone https://github.com/myhub/tf
 cd ./tf
-python main.py
+python train_mnist.py
 ```
 
 
