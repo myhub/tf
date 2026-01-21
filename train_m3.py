@@ -23,7 +23,7 @@ device = "cuda:0"
 class Net(nn.Module): 
     def __init__(self, nc):
         super().__init__()
-        self.embed = nn.Embedding(len(train_dataset.char2idx), nc, padding_idx=0)
+        self.embed = nn.Embedding(len(train_dataset.char2idx), nc, padding_idx=None)
         self.encoder = TfEncoder(train_dataset.seq_len, nc, bmax=batch_size,
             depth=depth, device=device, grad_norm_r=2)
         self.aout_len = train_dataset.aout_len

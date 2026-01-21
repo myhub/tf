@@ -43,7 +43,7 @@ class NlpM3(Dataset):
         m1 = idx % 1000
         m2 = idx // 1000
 
-        ain = f"{m1}*{m2}="
+        ain = f"{m1}*{m2}=        "
         aout = f"{m1*m2}"
         
         ain = [0]*(self.seq_len - len(ain)) + [self.char2idx[c] for c in ain] 
