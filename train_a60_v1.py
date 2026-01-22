@@ -1,4 +1,4 @@
-from nlp_a60 import NlpA60
+from nlp_a60_v1 import NlpA60
 from tf.encoder import TfEncoder
 from torch.utils.data import DataLoader
 from torch import nn 
