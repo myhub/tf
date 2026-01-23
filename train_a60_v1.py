@@ -8,6 +8,7 @@ from argparse import ArgumentParser
 parser = ArgumentParser("")
 parser.add_argument("--epochs", "-e", type=int, default=1000)
 parser.add_argument("--lr", type=float, default=0.2)
+parser.add_argument("--ckpt", type=str, default="ckpt_a60_v1.pth")
 args = parser.parse_args()
 
 batch_size = 32
@@ -39,8 +40,7 @@ class Net(nn.Module):
         return x
 
 net = Net(nc=nc).to(device)
-
-ckpt_path = "ckpt_a60_v1.pth"
+ckpt_path = args.ckpt
 try:
     ckpt = torch.load(ckpt_path)
     net.load_state_dict(ckpt['model_data'])
