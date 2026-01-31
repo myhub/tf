@@ -95,6 +95,11 @@ class TfEncoder(torch.nn.Module):
         self.depth = int(depth)
 
         self.device = self.get_device(device)
+        
+        dev_props = torch.cuda.get_device_properties(self.device.index)
+        sm_ver = f"sm_{dev_props.major}{dev_props.minor}"
+        assert sm_ver in "sm_75/sm_80/sm_86/sm_89/sm_90", sm_ver
+        
         self.tf_op = _tf_func.apply
 
         con_obj = dict(bmax=bmax, t=t, c=c, depth=depth, **kwargs)

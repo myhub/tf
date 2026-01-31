@@ -52,7 +52,7 @@ class NlpReverse(Dataset):
 
 
 if __name__ == '__main__':
-    ds = NlpReverse(align_left=False, seq_len=60)
+    ds = NlpReverse(align_left=False, seq_len=20)
 
     for i in range(len(ds)):
         ain, aout = ds[i]
