@@ -12,6 +12,8 @@
 
 推荐使用docker运行
 
+**提示：** 暂不支持RTX50系列显卡，请使用RTX20/RTX30/RTX40/A100/H100/H200/RTX6000等显卡测试
+
 #### 第一个例子
 ```
 git clone https://github.com/myhub/tf
