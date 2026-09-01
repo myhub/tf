@@ -1,38 +1,7 @@
-# 归积
-归积 一款新型Transformer架构, 解决了传统Transformer存在的一些问题:
-+ 平方复杂度
-+ 复杂推理能力弱
-
-本架构经过了大量测试, 并在OCR、字体设计等方向成功落地, 更多介绍见https://zhuanlan.zhihu.com/p/1996599793196225828
-
-#### 运行环境
-+ 支持NVIDIA sm_75/sm_80/sm_86/sm_89/sm_90系列显卡
-+ Ubuntu20.04/Ubuntu22.04
-+ Python3, NumPy, PyTorch
-
-推荐使用docker运行
-
-**提示：** 暂不支持RTX50系列显卡，请使用RTX20/RTX30/RTX40/A100/H100/H200/RTX6000等显卡测试
-
-#### 第一个例子
-```
-git clone https://github.com/myhub/tf
-cd ./tf
-python train_mnist.py
-```
-
-
-#### 软件说明
-本软件在<a href=https://github.com/myhub/uc>myhub/uc</a>项目基础上开发，受<a href=https://github.com/OpenBMB/MiniCPM>MiniCPM</a>, <a href=https://github.com/BlinkDL/RWKV-LM>RWKV</a>等项目启发，全程使用<a href=https://www.deepseek.com/>DeepSeek</a>大语言模型编写代码，主要依赖以下开源库：
-+ <a href=https://github.com/NVIDIA/cutlass>cutluss</a>
-+ <a href=https://github.com/NVIDIA/cccl>cccl</a>
-
+#### 归积 合成数据集
+发布一些常用开源合成数据集
 
 #### 版权说明
-本项目禁止商用，禁止任何形式的逆向
+本软件禁止任何形式的逆向
 
-#### 被逆向了
-呜呜呜，这个算法本身一分钱都不赚，每年还倒贴不少钱，纯靠兴趣支撑。希望逆向大佬放过~~
-![pic1](pic1.png)
-![pic2](pic2.jpg)
 
